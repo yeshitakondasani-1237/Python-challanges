@@ -11,3 +11,10 @@ Challenge-5:
 This program takes multiple weight values from the user and categorizes them into different load groups based on predefined ranges.It also identifies invalid (negative) weights separately.Then, it calculates a Personal Load Index (PLI) using the length of the user’s full name modulo 3.Based on the PLI value, certain categories of weights are removed or marked invalid.Finally, it displays the updated categories along with total valid and affected weights.
 Challenge-6:
 This problem asks us to analyze a playlist of song durations (in seconds).We must check if the playlist is too short, too long, repetitive, balanced, irregular, or invalid.Based on conditions, the program should print the category and recommendation.
+Challenge-7:
+The program takes energy consumption readings from multiple buildings in a campus.It classifies each reading into categories:
+Efficient (0–50),Moderate (51–150),High (>150),Invalid (<0)
+After classification, it:
+Calculates total valid energy consumption
+Counts number of readings in each category
+Determines an overall efficiency status of the campus based on conditions like high usage, balance, and total consumption.
